@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiksha - E-Learning Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6a0dad; /* Violet/Purple color */
+        }
+
+        .bg-primary {
+            background-color: var(--primary-color) !important;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color) !important;
+            border-color: var(--primary-color) !important;
+        }
+
+        .btn-primary:hover {
+            background-color: #5a0c9d !important;
+            border-color: #5a0c9d !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Shiksha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="courses.html" target="_blank">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to <span class="fw-bold">Shiksha</span></h1>
+            <p class="lead">Your gateway to knowledge and growth. Explore our courses and start learning today!</p>
+            <a href="courses.html" class="btn btn-light btn-lg" target="_blank">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">Shiksha is dedicated to delivering high-quality, accessible, and engaging educational experiences to learners worldwide. Our platform features a diverse range of courses designed to cater to your unique learning goals. Whether you're looking to enhance existing skills or explore new interests, Shiksha provides the tools and resources you need to succeed. Join us as we transform the future of education and empower learners across the globe.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Shiksha. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

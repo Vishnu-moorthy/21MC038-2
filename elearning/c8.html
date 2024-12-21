@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity - Shiksha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6a0dad; /* Violet/Purple color */
+        }
+
+        .bg-primary {
+            background-color: var(--primary-color) !important;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color) !important;
+            border-color: var(--primary-color) !important;
+        }
+
+        .btn-primary:hover {
+            background-color: #5a0c9d !important;
+            border-color: #5a0c9d !important;
+        }
+
+        .course-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .course-description {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .course-details {
+            margin-top: 30px;
+        }
+
+        footer {
+            padding: 10px 0; /* Reduced padding for a smaller footer */
+            margin-top: 50px; /* Optionally add a margin to push it down if you need more space */
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="1.html">Shiksha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Course Detail Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Cybersecurity</h2>
+            <div class="row course-details">
+                <div class="col-md-6">
+                    <img src="https://www.uclaextension.edu/sites/default/files/styles/course_hero/public/2018-02/fundamentals-of-cybersecurity-com-scix420-1.jpg?itok=kb-J0GEx" alt="Web Development" class="course-image">
+                </div>
+                <div class="col-md-6">
+                    <h4>Description</h4>
+                    <p class="course-description">
+                        Understand the principles of securing networks, data, and systems from cyber threats. This course covers ethical hacking, encryption techniques, and security best practices.
+                    </p>
+                    <h4>What You'll Learn</h4>
+                    <ul class="course-description">
+                        <li>Basics of cybersecurity and cryptography</li>
+                        <li>How to secure networks and systems</li>
+                        <li>Ethical hacking techniques for penetration testing</li>
+                        <li>Implementing firewalls, VPNs, and other security tools</li>
+                        <li>Understanding regulatory and compliance frameworks like GDPR</li>
+                    </ul>
+                    <a href="courses.html" class="btn btn-primary">Back to Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Shiksha. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
